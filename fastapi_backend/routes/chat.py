@@ -10,7 +10,7 @@ router = APIRouter()
 
 # 初始化阿里云百炼API客户端
 client = OpenAI(
-    api_key="sk-bc16a5830ae9461d986a76519c910c7b",  # 替换为您的API Key
+    api_key="sk-XXXXXXXXX",  # 替换为您的API Key
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
 )
 
